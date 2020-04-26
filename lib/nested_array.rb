@@ -58,6 +58,7 @@ def matrix_update(matrix, row, column, new_value)
   
   new_matrix = matrix[row] << new_value
   result = matrix[row]
+  binding.pry
   result
   
   
